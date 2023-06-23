@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Wordle</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  
+  <body id = "bodylmao">
+    <div class="headlol">
+      <h1>&#9885; Wordle &#9885;</h1>  
+      <div class="buttons">
+        <label id="dark">Dark</label>
+        <label id="info" data-modal-target="#modal" >Info</label>
+        <label id="hint" data-modal-targetHint="#modal">Hint</label>
+      </div>
+    </div>
+    <div class="modal" id="modal">
+      <div class="modal-header">
+        <div class="title">How To Play! :3</div>
+        <button data-close-button class="close-button">&times;</button>
+      </div>
+      <div class="modal-body">
+        <ul id="infolol">
+          <p>Instructions for Wordle</p>
+          <li>Start typing. The Letters will appear in the boxes</li>
+          <li>Remove letters with Backspace</li>
+          <li>Hit Enter to submit an answer</li>
+          <li>Letters with green background are in the right spot</li>
+          <li>Letters with yellow background exist in the word, but are in the wrong spots</li>
+          <li>Letters with gray background do not exist in the word</li>
+          <li>If you need a hint, click the &#63 icon.</li>
+          <li>Once you pressed a button, click on the page to use the keyboard</li>
+        </ul>
+      </div>
+      </div>
+    </div>
+    
+
+    <div class="modal" id="modalHint">
+      <div class="modal-header">
+        <div class="title">Hint for This Word!</div>
+        <button data-close-buttonHint class="close-button">&times;</button>
+      </div>
+      <div class="modal-body">
+        
+        <p id="hintlol"></p>
+        
+        
+      </div>
+      </div>
+    </div>
+    
+    <!-- GONNA BE COMPLETELY HONEST, i hate this image requirement, really ruined the asthetic i was going for but oh well....-->
+    <img id="imglol1" src="https://res.cloudinary.com/mkf/image/upload/v1675467141/ENSF-381/labs/congrats_fkscna.gif" alt="Image">
+    <img id="imglol2" src="https://res.cloudinary.com/mkf/image/upload/v1675467141/ENSF-381/labs/congrats_fkscna.gif" alt="Image">
+    <!-- GONNA BE COMPLETELY HONEST, i hate this image requirement, really ruined the asthetic i was going for but oh well....-->
+
+  
+    <div id="footlol">
+      © AbhyLmao 2023 💞
+    </div>
+    
+    <div id="overlay"></div>
+
+    
+    <div class = "content">
+    <div id = "game"></div>
+
+    
+    
+   
+    <div id="finallol" class="fadein"></div>
+    <label id="startOver">Loading...</label>
+    </div>
+    
+    
+    
+
+    <script src="./wordle.js"></script>
+  </body>
+</html>
+
+
+<!-- was kinda fun ♡〜٩( ˃▿˂ )۶〜♡ -->
